@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    box-sizing: border-box;
+}
+header{
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+#current-image-container{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    color: white;
+    background-color: black;
+}
+#current-image-container img{
+    height: 100%;
+    width: 85%;
+    margin: 10px 10px 0px 30px;
+}
+#form{
+    width: 95%;
+    margin: auto;
+}
+#search-form, #search-history{
+    margin: 25px ;
+}
+#search-form #search-input{
+  margin-top: 20px;
+}
+p,h2{
+    margin: 20px;
+}
+li{
+    list-style: none;
+    color: blue;
+}
